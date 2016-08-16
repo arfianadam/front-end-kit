@@ -1,6 +1,6 @@
 module.exports = {
     entry: {
-        static: "./src/assets/js/index.js"
+        index: "./src/assets/js/index.js"
     },
     output: {
         path: __dirname + "/public/assets/js/",
