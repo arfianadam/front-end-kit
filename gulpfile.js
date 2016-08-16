@@ -1,5 +1,6 @@
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
+    cleanCss = require('gulp-clean-css'),
     autoprefixer = require('gulp-autoprefixer'),
     uglify = require('gulp-uglify'),
     browserSync = require('browser-sync').create(),
@@ -22,6 +23,7 @@ gulp.task("serve", ["build"], function() {
 gulp.task("sass", function() {
     return gulp.src("./src/assets/css/style.scss")
         .pipe(sass())
+        .pipe(cleanCss())
         .pipe(gulp.dest("./public/assets/css/"))
         .pipe(browserSync.stream());
 });
