@@ -5,4 +5,4 @@ Front end web development kit made by me using automated build tools to bootstra
 
 ## Installation
 1. `npm install`
-2. `gulp`
+2. `npm start`
