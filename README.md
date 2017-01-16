@@ -14,3 +14,6 @@ Front end web development kit made by me using automated build tools to bootstra
   ```shell
   npm start
   ```
+
+### Download
+OR you can just download the zipped project [here](https://github.com/arfianadam/front-end-kit/releases)
