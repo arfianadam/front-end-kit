@@ -6,11 +6,11 @@ Front end web development kit made by me using automated build tools to bootstra
 ## Installation
 1. Install the dependencies
 
-  ```
+  ```shell
   npm install
   ```
 2. Run the dev server and the browser will auto reload as you make changes
 
-  ```
+  ```shell
   npm start
   ```
