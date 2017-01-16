@@ -4,5 +4,13 @@
 Front end web development kit made by me using automated build tools to bootstrap simple and static html page.
 
 ## Installation
-1. `npm install`
-2. `npm start`
+1. Install the dependencies
+
+  ```
+  npm install
+  ```
+2. Run the dev server and the browser will auto reload as you make changes
+
+  ```
+  npm start
+  ```
